@@ -39,6 +39,6 @@ class TestPunjabi(unittest.TestCase):
         tr = self.epi.transliterate('ਨਾਲ')
         self.assertEqual(tr, 'nɑl')
 
-    def test_praband(self):
+    def test_parbandh(self):
         tr = self.epi.transliterate('ਪ੍ਰਬੰਧ')
-        self.assertEqual(tr, 'pɾəbə̃t̪')
+        self.assertEqual(tr, 'pəɾbə̃d̪')
